@@ -7,10 +7,10 @@
 * Obtaining the human gradient information feature according to HoG operator.
 * With overlapping block moving, the feature is a histograms of 4000 dimensions.
 
-<img src="/features/capture1.png" alt="Hog1" width="100px"/>
-<img src="/features/capture2.png" alt="Hog2" width="100px"/>
-<img src="/features/capture3.png" alt="Hog3" width="100px"/>
-<img src="/features/capture4.png" alt="Hog4" width="100px"/>
+<img src="/features/capture1.png" alt="Hog1" width="250px"/>
+<img src="/features/capture2.png" alt="Hog2" width="250px"/>
+<img src="/features/capture3.png" alt="Hog3" width="250px"/>
+<img src="/features/capture4.png" alt="Hog4" width="250px"/>
 
 * The extracted features are use by [SVM]() to detection pedestrian candidates.
 
@@ -18,6 +18,6 @@
 * Using [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) to predict the movement of pedestrian.
 * The movement vectors look like as following figures.
 
-<img src="/figures/capture8.png" alt="move1" width="100px"/>
-<img src="/figures/capture9.png" alt="move2" width="100px"/>
-<img src="/figures/capture10.png" alt="move3" width="100px"/>
+<img src="/figures/capture8.png" alt="move1" width="250px"/>
+<img src="/figures/capture9.png" alt="move2" width="250px"/>
+<img src="/figures/capture10.png" alt="move3" width="250px"/>
