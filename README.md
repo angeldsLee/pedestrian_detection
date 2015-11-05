@@ -18,7 +18,7 @@
 * Using [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) to predict the movement of pedestrian.
 * The movement vectors look like as following figures.
 
-<img src="/figures/5555.png" alt="move3" width="300px"/>
 <img src="/figures/capture8.png" alt="move1" width="300px"/>
-<img src="/figures/capture9.png" alt="move2" width="300px"/>
 <img src="/figures/capture10.png" alt="move3" width="300px"/>
+<img src="/figures/5555.png" alt="move3" width="300px"/>
+<img src="/figures/capture9.png" alt="move2" width="300px"/>
