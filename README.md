@@ -1,14 +1,16 @@
 # Pedestrian dection and Tracking
 
-## Implement pedestrian detection and tracking by Hog feature and Kalman filter
+### Implement pedestrian detection and tracking by Hog feature and Kalman filter
 
 ### Detect by Hog feature
 [Histograms of Oriented Gradients(HOG)](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) feature extraction.
 * Obtaining the human gradient information feature according to HoG operator.
 * With overlapping block moving, the feature is a histograms of 4000 dimensions.
 
-![](/features/capture1.png =100x) ![Hog2](/features/capture2.png =100x)
-![Hog3](/features/capture3.png =100x) ![Hog4](/features/capture4.png =100x)
+<img src="/features/capture1.png" alt="Hog1" style="width: 100px;"/>
+<img src="/features/capture2.png" alt="Hog2" style="width: 100px;"/>
+<img src="/features/capture3.png" alt="Hog3" style="width: 100px;"/>
+<img src="/features/capture4.png" alt="Hog4" style="width: 100px;"/>
 
 * The extracted features are use by [SVM]() to detection pedestrian candidates.
 
@@ -16,6 +18,6 @@
 * Using [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) to predict the movement of pedestrian.
 * The movement vectors look like as following figures.
 
-![movement1](/figures/capture8.png =100x)
-![movement2](/figures/capture9.png =100x)
-![movement3](/figures/capture10.png =100x)
+<img src="/figures/capture8.png" alt="move1" style="width: 100px;"/>
+<img src="/figures/capture9.png" alt="move2" style="width: 100px;"/>
+<img src="/figures/capture10.png" alt="move3" style="width: 100px;"/>
