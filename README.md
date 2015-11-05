@@ -7,10 +7,10 @@
 * Obtaining the human gradient information feature according to HoG operator.
 * With overlapping block moving, the feature is a histograms of 4000 dimensions.
 
-<img src="/features/capture1.png" alt="Hog1" style="width: 100px;"/>
-<img src="/features/capture2.png" alt="Hog2" style="width: 100px;"/>
-<img src="/features/capture3.png" alt="Hog3" style="width: 100px;"/>
-<img src="/features/capture4.png" alt="Hog4" style="width: 100px;"/>
+<img src="/features/capture1.png" alt="Hog1" style="width: 30px;"/>
+<img src="/features/capture2.png" alt="Hog2" style="width: 30px;"/>
+<img src="/features/capture3.png" alt="Hog3" style="width: 30px;"/>
+<img src="/features/capture4.png" alt="Hog4" style="width: 30px;"/>
 
 * The extracted features are use by [SVM]() to detection pedestrian candidates.
 
